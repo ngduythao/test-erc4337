@@ -23,7 +23,7 @@ import { ENTRYPOINT_ABI, ENTRYPOINT_ADDRESS, FACTORY_ABI } from "@/constants";
 import { smartWallet } from "@/libs/smart-wallet";
 
 export class UserOpBuilder {
-  public relayer: Hex = "0x061060a65146b3265C62fC8f3AE977c9B27260fF";
+  public relayer: Hex = "0xeeC5915A21DA64a58DE1e9a3D7dd7b8Bff775cF0";
   public entryPoint: Hex = ENTRYPOINT_ADDRESS;
   public chain: Chain;
   public publicClient: PublicClient;

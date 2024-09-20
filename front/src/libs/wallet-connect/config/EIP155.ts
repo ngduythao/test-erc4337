@@ -74,6 +74,14 @@ export const EIP155_TEST_CHAINS = {
     rpc: "https://rpc.ankr.com/eth_sepolia",
     namespace: "eip155",
   },
+  "eip155:421614": {
+    chainId: 421614,
+    name: "Arbitrum Sepolia",
+    logo: "/chain-logos/eip155-421613.png",
+    rgb: "99, 125, 234",
+    rpc: "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
+    namespace: "eip155",
+  },
   // "eip155:43113": {
   //   chainId: 43113,
   //   name: "Avalanche Fuji",

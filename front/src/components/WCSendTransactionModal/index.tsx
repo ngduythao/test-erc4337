@@ -113,7 +113,7 @@ export default function WCSendTransactionModal({ params, origin, onSuccess }: Pr
             <>
               <CheckCircledIcon height="32" width="100%" color="var(--teal-11)" />
               <Link
-                href={`https://sepolia.etherscan.io/tx/${txReceipt?.receipt?.transactionHash}`}
+                href={`https://sepolia.arbiscan.io/tx/${txReceipt?.receipt?.transactionHash}`}
                 target="_blank"
                 style={{ textDecoration: "none" }}
               >
@@ -127,7 +127,7 @@ export default function WCSendTransactionModal({ params, origin, onSuccess }: Pr
             <>
               <CrossCircledIcon height="32" width="100%" />
               <Link
-                href={`https://sepolia.etherscan.io/tx/${txReceipt?.receipt?.transactionHash}`}
+                href={`https://sepolia.arbiscan.io/tx/${txReceipt?.receipt?.transactionHash}`}
                 target="_blank"
                 style={{ textDecoration: "none" }}
               >

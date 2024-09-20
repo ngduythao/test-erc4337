@@ -21,7 +21,7 @@ export default function History() {
           variant="outline"
           style={{ marginTop: ".3rem" }}
           onClick={() => {
-            window.open(`https://sepolia.etherscan.io/address/${me?.account}`, "_blank");
+            window.open(`https://sepolia.arbiscan.io/address/${me?.account}`, "_blank");
           }}
         >
           Browse history on etherscan
